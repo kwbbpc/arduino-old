@@ -1,0 +1,22 @@
+package example.proto;
+
+import example.proto.Simple.SimpleMessage;
+import example.proto.Simple.SimpleMessageOrBuilder;
+import example.serial.SerialListener;
+
+public class SimpleParser implements SerialListener{
+	
+	Simple parseEvent(byte[] d)
+	{		
+		return SimpleMessage.parseFrom(d);
+	}
+
+	@Override
+	public void onSerialData(String data) {
+		
+		parseEvent(data.getBytes());
+		
+		
+	}
+
+}

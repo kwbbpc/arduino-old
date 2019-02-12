@@ -1,0 +1,227 @@
+
+
+form
+{
+	display:table
+}
+input[type=text]
+{
+	border:2px solid black;
+	border-radius:2px;
+	height:35px;
+	width:300px;
+	padding:5px;
+	margin-top:30px;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+label
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:20px;
+	margin-right:10px;
+}
+
+.password
+{
+	/*min width for the password form */
+	min-width:585px;
+}
+
+.password input[type=submit]
+{
+	width: 75px;
+	height: 30px;
+	margin-left:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	
+	border-radius:10px;
+	background-color:#D0D0D0;
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	
+}
+
+.password input[type=submit]:hover
+{
+	background-color:#B8B8B8;
+	border-width:3px;
+}
+
+
+.h3
+{
+	background-color: #FFFFFF;
+	margin-top:-40;
+	display:table;
+	padding:8px;
+}
+
+.allProfiles
+{
+	display:inline-block;
+	
+	border:solid black;
+	border-radius:20px;
+	padding: 20px;
+	margin:100px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.allProfiles h2
+{
+	margin-top:-38px;
+	margin-bottom:40px;
+	background-color: #FFFFFF;
+	display:inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	height:20px;
+	text-align:center;
+	
+}
+
+
+
+.newprofile a
+{
+	min-width: 120px;
+	height: 30px;
+	margin-left:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	
+	border-radius:5px;
+	background-color:#FF4D4D;
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	
+}
+
+.newprofile a:hover
+{
+	background-color:#B23636;
+	border-width:3px;
+	padding:9px;
+}
+
+.newprofile a:visited
+{
+}
+.newprofile
+{
+	margin:30px;
+	float:left;
+}
+.profile
+{
+	margin:30px;
+	float:left;
+}
+
+.profile a
+{
+	min-width: 120px;
+	height: 30px;
+	margin-left:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	
+	border-radius:5px;
+	background-color:#808080;
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	
+}
+
+.profile a:hover
+{
+	background-color:#A0A0A0;
+	border-width:3px;
+	padding:9px;
+	
+}
+
+.profile a:visited
+{
+}
+
+
+.profile:hover .deleteprofile
+{
+	display:inline-block;
+}
+
+.deleteprofile
+{
+	display:none;
+	vertical-align:middle;
+	text-align:center;	
+	width:0px;
+	height:0px;
+	position:relative;
+	
+	top:-23px;
+	left:-16px;
+	
+	
+}
+.deleteprofile a
+{
+	margin:0px;
+	padding:0px;
+	padding-left:3px;
+	padding-right:3px;
+	border:none;
+	background:none;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:900;
+	color:#101010;
+	background-color:none;
+}
+.deleteprofile a:hover
+{
+	margin:0px;
+	padding:0px;
+	padding-left:3px;
+	padding-right:3px;
+	border:solid black 1px;
+	background-color:#C80000;
+}
+
+.result
+{
+	display:table-cell;
+	background-color:#ffb2b2;
+	border-radius:3px;
+	height:20px;
+	
+	position:relative;
+	top:145px;
+	left:130px;
+	
+	padding:3px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	
+}
+.result p
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0px;
+}
+

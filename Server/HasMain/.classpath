@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="lib" path="RXTXcomm.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/HasCore"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/UsbDevices"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/MessageHandling"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Sensors"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/Users"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SensorDrawers"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SensorsCore"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,32 @@
+.unitLabel
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.unitLabel a
+{
+	color:#000000;
+	text-decoration:none;
+	border:none;
+	padding:5px;
+	font-size:15px;
+	font-weight:600;
+	vertical-align:middle;
+}
+
+.unitLabel a:visited
+{
+	color:#000000;
+}
+
+.unitLabel a:hover
+{
+	color: #800000 ;
+}
+
+.unitLabel p
+{
+	display:table-cell;
+	vertical-align:middle;
+}

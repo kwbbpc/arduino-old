@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="example.proto.Simple"/>
+<fullyQualifiedTypeName name="example.proto.Simple.SimpleMessageOrBuilder"/>
+<fullyQualifiedTypeName name="example.serial.SerialListener"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.CharSequence"/>
+<fullyQualifiedTypeName name="gnu.io.SerialPortEvent"/>
+<fullyQualifiedTypeName name="example.proto.SimpleParser"/>
+<fullyQualifiedTypeName name="example.proto.Simple.SimpleMessage"/>
+</qualifiedTypeNameHistroy>

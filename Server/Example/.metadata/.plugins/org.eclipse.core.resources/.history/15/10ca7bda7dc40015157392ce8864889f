@@ -1,0 +1,30 @@
+package example.proto;
+
+import com.google.protobuf.InvalidProtocolBufferException;
+
+import example.proto.Simple.SimpleMessage;
+import example.proto.Simple.SimpleMessageOrBuilder;
+import example.serial.SerialListener;
+
+public class SimpleParser implements SerialListener{
+	
+	SimpleMessage parseEvent(byte[] d) throws InvalidProtocolBufferException
+	{		
+		return SimpleMessage.parseFrom(d);
+	}
+
+	@Override
+	public void onSerialData(char[] data) {
+		
+		
+		try {
+			SimpleMessage m = parseEvent(data.getBytes());
+			System.out.println("The lucky number recieved was: " + m.getLuckyNumber());
+		} catch (InvalidProtocolBufferException e) {
+			System.err.println("Error parsing the protobuf: " + e.getMessage());
+		}
+		
+		
+	}
+
+}

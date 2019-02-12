@@ -1,0 +1,28 @@
+
+.data p
+{
+	display:none;
+}
+
+.container
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	
+}
+.container div
+{
+	display:table;
+	margin:20px;
+	font-weight:bold;
+	font-size: 22px;
+	vertical-align:middle;
+}
+
+p
+{
+	font-weight:normal;
+	display:table-cell;
+	font-size: 20px;
+	padding-left:10px;
+}

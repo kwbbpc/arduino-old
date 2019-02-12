@@ -1,0 +1,5 @@
+package example.proto;
+
+public class SimpleParser {
+
+}

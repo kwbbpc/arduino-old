@@ -1,0 +1,14 @@
+package example.proto;
+
+import example.serial.SerialListener;
+
+public class SimpleParser implements SerialListener{
+	
+	void parseEvent()
+	{
+		
+		
+		
+	}
+
+}

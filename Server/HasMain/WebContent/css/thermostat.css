@@ -1,0 +1,55 @@
+
+
+.thermostatContainer
+{
+	text-align:center;
+	padding:10px;
+}
+
+.thermostat
+{
+	min-width:500px;
+	
+	margin:0 auto;
+
+	height:60px;
+	display:table;
+}
+.thermostat > *
+{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+.thermostat input[type='text']
+{
+	vertical-align:middle;
+	width:60px;
+	margin-top:0px;
+	
+	border:2px solid black;
+	border-radius:2px;
+	height:35px;
+	padding:5px;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+.thermostat p
+{
+	position:relative;
+	top:-13px;
+	padding-right:70px;
+}
+.thermostat label
+{
+	margin-right:10px;
+	padding-right:0px;
+}
+
+.expandedThermostat
+{
+	padding:20px;
+	border:solid black;
+	border-radius:20px;
+}

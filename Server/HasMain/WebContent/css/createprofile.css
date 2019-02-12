@@ -1,0 +1,203 @@
+
+
+.uncategorized
+{
+	display:inline-block;
+	width:auto;
+	padding: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.uncategorized h3
+{
+	background-color: #FFFFFF;
+	margin-top:-40;
+	display:table;
+	padding:8px;
+}
+
+span
+{
+	width:100%;
+	margin-top:100px;
+	display:block;
+}
+
+
+.room
+{
+	display:inline-block;
+	width:300px;
+	border:solid black;
+	border-radius:20px;
+	padding: 20px;
+	margin:50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.room div
+{
+	text-align:center;
+}
+
+
+.room h3
+{
+	background-color: #FFFFFF;
+	margin-top:-40;
+	padding:8px;
+	display:inline-block;
+}
+
+
+.name
+{
+	margin-top:-30px;
+}
+
+.name input[type=text]
+{
+	border:2px solid black;
+	border-radius:2px;
+	height:35px;
+	width:300px;
+	padding:5px;
+	margin-top:30px;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+
+.name input[type=submit]
+{
+	border:1px solid black;
+	border-radius:5px;
+	height:35px;
+	width:100px;
+	padding:5px;
+	margin:10px; 
+	background-color:#C8C8C8 ;
+	
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size:15px;
+	font-weight:600;
+}
+.name input[type=submit]:hover
+{
+	background-color:#B8B8B8 ;
+}
+
+
+label
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:20px;
+	margin-right:10px;
+}
+
+
+
+.h3
+{
+	background-color: #FFFFFF;
+	margin-top:-40;
+	display:table;
+	padding:8px;
+}
+
+.profiles
+{
+	display:inline-block;
+	
+	border:solid black;
+	border-radius:20px;
+	padding: 20px;
+	margin:100px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.profiles h2
+{
+	margin-top:-38px;
+	margin-bottom:40px;
+	background-color: #FFFFFF;
+	display:inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	height:20px;
+	text-align:center;
+	
+}
+
+
+
+.profiles a
+{
+	width: 120px;
+	height: 30px;
+	margin-left:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	
+	border-radius:5px;
+	background-color:#FF4D4D;
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	
+}
+
+.profiles a:hover
+{
+	background-color:#B23636;
+	border-width:3px;
+}
+
+.profiles a:visited
+{
+}
+
+ 
+.thermostat
+{
+	width:100%;
+	text-align:center;
+	margin-top:100px;
+} 
+.thermostat > *
+{
+	vertical-align:middle;
+}
+.thermostat input[type='text']
+{
+	vertical-align:middle;
+	width:60px;
+	margin-top:0px;
+	
+	border:2px solid black;
+	border-radius:2px;
+	height:35px;
+	padding:5px;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+
+
+.roomContainer
+{
+	padding:30px;
+	text-align:center;
+}
+.roomContainer > *
+{
+	vertical-align:top;
+}
+
+

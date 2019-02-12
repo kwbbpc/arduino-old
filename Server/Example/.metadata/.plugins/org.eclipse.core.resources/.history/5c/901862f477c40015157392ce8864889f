@@ -1,0 +1,22 @@
+package example.main;
+
+import example.serial.SerialTest;
+
+public class Main {
+	
+	public static void main(String[] args) throws Exception {
+		SerialTest main = new SerialTest();
+		main.initialize();
+		Thread t=new Thread() {
+			public void run() {
+				while(true)
+				{
+					
+				}
+			}
+		};
+		t.start();
+		System.out.println("Started");
+	}
+
+}

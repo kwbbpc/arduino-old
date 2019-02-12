@@ -1,0 +1,19 @@
+
+.hasChkBx
+ {
+	display:none;
+ }
+.hasChkBx + label
+{
+	display:inline-block;
+    background: url("../img/chkbox.png") no-repeat 0 0;
+    background-size:30 30px;
+    height: 30px;
+    width: 30px;
+}
+   
+.hasChkBx:checked + label
+ {
+	background: url(../img/chkbox_checked.png) no-repeat 0 0;
+	background-size:30 30px;
+ }

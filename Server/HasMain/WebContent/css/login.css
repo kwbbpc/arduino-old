@@ -1,0 +1,87 @@
+
+
+body
+{
+	background-image:url("../img/login.png");
+	background-repeat:no-repeat;
+	background-size:960 720;
+	background-color:#000000;
+}
+ 
+form
+{
+	margin-left:600px;
+	margin-top:320px;
+}
+
+input[type="text"]
+{
+	width:270px;
+	height:50px;
+	border-color:#6E6E6E;
+	border-width:5px;
+	border-style:solid;
+	border-radius:2px;
+	margin:10px;
+	padding:10px;
+	display:block;
+	
+	font-family:"Courier New";
+	font-size:32px;
+	color:#8c8c8c;
+}
+
+input[type="password"]
+{
+	width:270px;
+	height:50px;
+	border-color:#6E6E6E;
+	border-width:5px;
+	border-radius:2px;
+	border-style:solid;
+	margin:10px;
+	padding:10px;
+	display:block;
+	
+	font-family:"Courier New";
+	font-size:32px;
+}
+
+input[type="submit"]
+{
+	display:block;
+	width:270px;
+	height:70px;
+	margin:10px;
+	margin-top:50px;
+	
+	background-color:#424242;
+	border-style:solid;
+	border-color:#BDBDBD;
+	border-radius:2px;
+	
+	font-family:"Lucida Console";
+	font-size:36px;
+}
+
+input[type="submit"]:hover
+{
+	display:block;
+	width:270px;
+	height:70px;
+	margin:10px;
+	margin-top:50px;
+	
+	background-color:#C0C0C0;
+	border-style:solid;
+	border-color:#BDBDBD;
+	border-radius:2px;
+	
+	font-family:"Lucida Console";
+	font-size:36px;
+}
+
+
+
+
+	
